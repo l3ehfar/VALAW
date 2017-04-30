@@ -1,0 +1,162 @@
+@import url("demo.css");
+@import url(normalize.css);
+.box {
+	width: 340px;
+	height: 360px;
+	position: relative;
+	background: rgba(255,255,255,1);
+	display: inline-block;
+	margin: 0 10px;
+	cursor: pointer;
+	color: #2c3e50;
+	box-shadow: inset 0 0 0 3px #fff;
+	-webkit-transition: background 0.4s 0.5s;
+	transition: background 0.4s 0.5s;
+}
+
+.box:hover {
+	background: rgba(255,255,255,0);
+	-webkit-transition-delay: 0s;
+	transition-delay: 0s;
+}
+.box svg {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.box svg line {
+	stroke-width: 3;
+	stroke: #fff;
+	fill: none;
+	-webkit-transition: all .8s ease-in-out;
+	transition: all .8s ease-in-out;
+}
+
+.box:hover svg line {
+	stroke: #d0ae51;
+	-webkit-transition-delay: 0.1s;
+	transition-delay: 0.1s;
+}
+
+.box svg line.top,
+.box svg line.bottom {
+	stroke-dasharray: 370 280; 
+}
+
+.box svg line.left,
+.box svg line.right {
+	stroke-dasharray: 390 300;
+}
+
+.box:hover svg line.top {
+	-webkit-transform: translateX(-680px);
+	transform: translateX(-680px);
+}
+
+.box:hover svg line.bottom {
+	-webkit-transform: translateX(680px);
+	transform: translateX(680px);
+}
+
+.box:hover svg line.left {
+	-webkit-transform: translateY(720px);
+	transform: translateY(720px);
+}
+
+.box:hover svg line.right {
+	-webkit-transform: translateY(-720px);
+	transform: translateY(-720px);
+}
+/*------------------------------------box2---------------------------------*/
+.box2 {
+	width: 280px;
+	height: 300px;
+	position: relative;
+	background: rgba(255,255,255,1);
+	display: inline-block;
+	margin: 0 10px;
+	cursor: pointer;
+	color: #2c3e50;
+	box-shadow: inset 0 0 0 3px #fff;
+	-webkit-transition: background 0.4s 0.5s;
+	transition: background 0.4s 0.5s;
+}
+
+.box2:hover {
+	background: rgba(255,255,255,0);
+	-webkit-transition-delay: 0s;
+	transition-delay: 0s;
+}
+.box2 svg {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.box2 svg line {
+	stroke-width: 3;
+	stroke: #fff;
+	fill: none;
+	-webkit-transition: all .8s ease-in-out;
+	transition: all .8s ease-in-out;
+}
+
+.box2:hover svg line {
+	stroke: #d0ae51;
+	-webkit-transition-delay: 0.1s;
+	transition-delay: 0.1s;
+}
+
+.box2 svg line.top,
+.box2 svg line.bottom {
+	stroke-dasharray: 310 220; 
+}
+
+.box2 svg line.left,
+.box2 svg line.right {
+	stroke-dasharray: 330 240;
+}
+
+.box2:hover svg line.top {
+	-webkit-transform: translateX(-560px);
+	transform: translateX(-560px);
+}
+
+.box2:hover svg line.bottom {
+	-webkit-transform: translateX(560px);
+	transform: translateX(560px);
+}
+
+.box2:hover svg line.left {
+	-webkit-transform: translateY(600px);
+	transform: translateY(600px);
+}
+
+.box2:hover svg line.right {
+	-webkit-transform: translateY(-600px);
+	transform: translateY(-600px);
+}
+/*-------------------------------------------------------------------------*/
+@media screen and (min-width: 1700px) {
+	.box2{
+		display: none;
+	}
+}
+@media screen and (max-width: 1700px) {
+	.box{
+		display: none;
+	}
+}
+@media screen and (max-width: 1350px) {
+	.bord2{
+		display: none;
+	}
+}
+@media screen and (max-width: 480px) {
+	.box2{
+	    width: 150px;
+		height: 40px;
+		margin: 0px 0px 0px 0px;
+	}
+}

@@ -1,0 +1,37 @@
+ @import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+ @import url('http://getbootstrap.com/dist/css/bootstrap.css');
+ @import url(https://fonts.googleapis.com/css?family=Montserrat);
+ @font-face {
+ 	font-family: 'Montserrat Hairline';
+ 	font-weight: Light;
+ 	src: url("Montserrat-Hairline.otf") format("opentype");
+ }
+ /*-------------------------footer----------------------------*/
+ #footer {
+   margin-top: 80px;
+   background-color: #2f2c35;
+   height: 80px;
+ }
+ #footer p{
+ 	color: #fff;
+ 	font-family: 'Montserrat Hairline';
+ 	font-size: 16pt;
+ 	text-align: center;
+ 	padding-top: 25px;
+ }
+  @media screen and (max-width: 1700px) {
+  	#footer p{
+  		font-size: 10pt;
+  		padding-top: 30px;
+  	}
+  }
+    @media screen and (max-width: 38em) {
+   #footer {
+   margin-top: 40px;
+   height: 40px;
+ }
+  	#footer p{
+  		font-size: 9pt;
+  		padding-top: 5px;
+  	}
+  }

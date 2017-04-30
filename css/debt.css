@@ -1,0 +1,173 @@
+ @import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+ @import url('http://getbootstrap.com/dist/css/bootstrap.css');
+ @import url(https://fonts.googleapis.com/css?family=Montserrat);
+ @font-face {
+ 	font-family: 'Montserrat Light';
+ 	font-weight: Light;
+ 	src: url("Montserrat-Light.otf") format("opentype");
+ }
+  @font-face {
+ 	font-family: 'Montserrat Hairline';
+ 	font-weight: Light;
+ 	src: url("Montserrat-Hairline.otf") format("opentype");
+ }
+ /*------------------------------debt-------------------------------*/
+ #debt{
+ 	margin-top: 170px;
+ }
+ #debt h1{
+ 	font-size: 48pt;
+ 	font-family: 'Montserrat Hairline';
+ 	text-align: center;
+ 	margin-bottom: 20px;
+ 	color: #2f2c35;
+ 	margin-left: 40px;
+ }
+ #debt h2{
+font-size: 15pt;
+font-family: 'Montserrat Light';
+color: #939292;
+margin-top: 70px;
+margin-left: 35px;
+ }
+ #debt i{
+ 	color: #d3d3d3;
+ 	font-size:25px;
+ }
+ #debt li{
+font-family: 'Montserrat Light';
+font-size: 14pt;
+color: #939292;
+border-top:none;
+border-left: none;
+border-right: none;
+margin-left: 40px; 
+border-bottom: 1px solid #e6e6e6;
+list-style-type: none;
+padding-bottom: 12px;
+padding-top: 12px;
+padding-left: 12px;
+ }
+ #debt li a{
+ 	color: #939292;
+ }
+ #debt li a:hover,#debt li a:active{
+ 	color: #8896be;
+ 	text-decoration: none;
+ }
+
+.tab{
+	border: 1px solid #e0e0e0;
+	height: 820px;
+}
+#debt p{
+	font-size: 15pt;
+	margin-bottom: 25px;
+}
+.p-content{
+	margin-top: 70px;
+	margin-left: 50px;
+}
+  #debt ul li .middle{
+ 		margin-left: 10px;
+ 	}
+ 	#debt ul li .now{
+ 		color: #8896be;
+ 	}
+ @media screen and (max-width: 1700px) {
+ 	 #debt{
+ 	margin-top: 100px;
+ }
+ 	#debt h1{
+ 		font-size: 30pt;
+ 		 margin-left: 0px;
+ 	}
+ 	#debt h2{
+ 		font-size: 9pt;
+ 		margin-top: 40px;
+ 	
+ 	}
+ 	#debt li{
+ 		font-size: 8pt;
+ 		
+ 	}
+ 	#debt i{
+        font-size: 13px;
+ 	}
+ 	#debt p{
+	font-size: 10pt;
+	margin-bottom: 25px;
+}
+.p-content{
+	margin-top: 40px;
+
+}
+.tab{
+	height: 540px;
+}
+ }
+  @media screen and (max-width: 68em) {
+ 	#debt h1{
+ 		font-size: 25pt;
+ 	}
+ 	#debt h2{
+ 		font-size: 7pt;
+ 		margin-top: 40px;
+ 		margin-left: 20px;
+ 	}
+ 	#debt li{
+ 		font-size: 7pt;
+ 		margin-left: 22px;
+ 	}
+ 	#debt i{
+        font-size: 10px;
+ 	}
+ 	#debt p{
+	font-size: 9pt;
+	margin-bottom: 15px;
+}
+.p-content{
+	margin-top: 40px;
+	margin-left: 0px;
+    margin-right: 25px;
+}
+.tab{
+	border: 1px solid #e0e0e0;
+	height: 750px;
+}
+ }
+  @media screen and (max-width: 38em) {
+  	#debt{
+  		margin-top: 60px;
+  	}
+  	 #debt h1{
+ 		font-size: 15pt;
+ 	}
+ 	#debt h2{
+ 		font-size: 7pt;
+ 		margin-top: 40px;
+ 		margin-left: 20px;
+ 		margin-right: 20px;
+ 	}
+ 	#debt li{
+ 		font-size: 7pt;
+ 		 		margin-left: 22px;
+ 		margin-right: 22px;
+ 	}
+ 	#debt i{
+        font-size: 10px;
+ 	}
+ 	#debt p{
+	font-size: 8pt;
+	margin-bottom: 15px;
+}
+.p-content{
+	margin-top: 40px;
+	margin-left: 25px;
+    margin-right: 25px;
+}
+.tab{
+	border: 1px solid #e0e0e0;
+	height: 980px;
+}
+ }

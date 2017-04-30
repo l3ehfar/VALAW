@@ -1,0 +1,169 @@
+ @import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+ @import url('http://getbootstrap.com/dist/css/bootstrap.css');
+ @import url(https://fonts.googleapis.com/css?family=Montserrat);
+ @font-face {
+ 	font-family: 'Montserrat Light';
+ 	font-weight: Light;
+ 	src: url("Montserrat-Light.otf") format("opentype");
+ }
+ @font-face {
+ 	font-family: 'Montserrat Hairline';
+ 	font-weight: Light;
+ 	src: url("Montserrat-Hairline.otf") format("opentype");
+ }
+ @font-face {
+ 	font-family: 'Montserrat Regular';
+ 	font-weight: Light;
+ 	src: url("Montserrat-Regular.otf") format("opentype");
+ }
+ @font-face {
+ 	font-family: 'Montserrat Bold';
+ 	font-weight: Light;
+ 	src: url("Montserrat-Bold.otf") format("opentype");
+ }
+ @font-face {
+ 	font-family: 'Montserrat Black';
+ 	font-weight: Light;
+ 	src: url("Montserrat-Black.otf") format("opentype");
+ }
+ /*---------------------------legal-----------------------------*/
+ #legal-solutions{
+ 	padding-top: 50px;
+ 	text-align: center;
+ }
+ #legal-solutions h1{
+ 	font-family: 'Montserrat Hairline';
+ 	font-size: 46pt;
+ 	color: #2f2c35;
+ 	padding-bottom: 20px;
+ }
+ .first{
+ 	height: 90px;
+ 	display: block;
+ 	margin-left: 130px;
+ 	margin-top: 28px;
+ 	margin-bottom: 30px;
+ }
+  .second{
+ 	height: 110px;
+ 	display: block;
+ 	margin-left: 115px;
+ 	margin-top: 20px;
+ 	margin-bottom: 20px;
+ }
+ .third {
+ 	height: 110px;
+ 	display: block;
+ 	margin-left: 112px;
+ 	margin-top: 21px;
+ 	margin-bottom: 20px;
+ }
+
+ #legal-solutions h2{
+ 	font-family: 'Montserrat Regular';
+ 	color: #514f5c;
+ 	font-size: 13pt;
+ 	-webkit-transition-property: color; /* Safari */
+ 	-webkit-transition-duration: .5s; /* Safari */
+ 	-webkit-transition-delay: 0s; /* Safari */
+ 	transition-property: color;
+ 	transition-duration: .5s;
+ 	transition-delay: 0s;
+ }
+ #legal-solutions p{
+ 	padding-top: 25px;
+ 	font-family: 'Montserrat Light';
+ 	color: #2f2c35;
+ 	font-size: 11pt;
+ 	-webkit-transition-property: color; /* Safari */
+ 	-webkit-transition-duration: .5s; /* Safari */
+ 	-webkit-transition-delay: 0s; /* Safari */
+ 	transition-property: color;
+ 	transition-duration: .5s;
+ 	transition-delay: 0s;
+ }
+ svg #svg_hover{
+ 	fill: #514f5c;
+ 	-webkit-transition-property: fill; /* Safari */
+ 	-webkit-transition-duration: .5s; /* Safari */
+ 	-webkit-transition-delay: 0s; /* Safari */
+ 	transition-property: fill;
+ 	transition-duration: .5s;
+ 	transition-delay: 0s;
+ }
+ #legal-solutions a:hover p,#legal-solutions a:focus p,#legal-solutions a:hover h2,#legal-solutions a:focus h2,#legal-solutions a:hover svg #svg_hover,#legal-solutions a:focus svg #svg_hover{
+ 	color: #d0ae51;
+ 	fill: #d0ae51;
+ }
+ #legal-solutions a:hover,#legal-solutions a:focus{
+ 	text-decoration: none;
+ }
+  @media screen and (max-width: 1700px) {
+ #legal-solutions h1{
+ 	font-size: 32pt;
+ }
+ #legal-solutions h2{
+ 	font-size: 10pt;
+ }
+ #legal-solutions p{
+ 	font-size: 9pt;
+ }
+ #legal-solutions{
+ 	padding-right: 30px;
+ }
+  .first{
+ 	height: 70px;
+ 	margin-left: 110px;
+ 	margin-top: 24px;
+ 	margin-bottom: 30px;
+ }
+  .second{
+ 	height: 90px;
+ 	margin-left: 95px;
+ 	margin-top: 17px;
+ 	margin-bottom: 20px;
+ }
+ .third {
+ 	height: 90px;
+ 	margin-left: 95px;
+ 	margin-top: 17px;
+ 	margin-bottom: 20px;
+ }
+  }
+ @media screen and (max-width: 480px) {
+ 	#legal-solutions{
+ 		padding-top: 20px;
+ 		margin-left: 0px;
+ 	}
+ 	#legal-solutions h1{
+ 		font-size: 20px;
+ 		margin-bottom: 0px;
+ 		margin-left: 20px;
+ 	}
+ 	#legal-solutions h2{
+ 		font-size: 8px;
+ 		margin-right: 0px;
+ 		margin-left: 0px;
+ 	}
+ 	#legal-solutions p{
+ 		display: none;
+ 	}
+ 	 .first{
+ 	height: 40px;
+ 	margin-top: 20px;
+ 	margin-bottom: 10px;
+ 	margin-left: 60px;
+ }
+  .second{
+ 	height: 50px;
+ 	margin-top: 10px;
+ 	margin-bottom: 10px;
+ 	margin-left: 50px;
+ }
+ .third {
+ 	height: 50px;
+ 	margin-top: 10px;
+ 	margin-bottom: 10px;
+ 	margin-left: 50px;
+ }
+ }
